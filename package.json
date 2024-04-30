@@ -1,0 +1,16 @@
+{
+  "name": "djs-bot",
+  "version": "1.0.0",
+  "description": "A discord.js bot starter template",
+  "main": "index.js",
+  "repository": "https://github.com/tasinmalif/djs-bot",
+  "author": "Tasin M Alif",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "4",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "luxon": "^3.4.4"
+  }
+}
