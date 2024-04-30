@@ -48,4 +48,8 @@ client.components = {
 client.events = new Collection();
 client.cooldowns = new Collection();
 
+["event", "command", "component"].forEach((file) => {
+  require(`./handlers/${file}`)(client);
+});
+
 client.login(process.env.BOT_TOKEN);
