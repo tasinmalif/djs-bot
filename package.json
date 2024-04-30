@@ -1,8 +1,12 @@
 {
   "name": "change",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "CHANGE",
   "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "nodemon ."
+  },
   "repository": "https://github.com/tasinmalif/CHANGE",
   "author": "Tasin M Alif",
   "license": "MIT",
@@ -12,5 +16,8 @@
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5",
     "luxon": "^3.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
